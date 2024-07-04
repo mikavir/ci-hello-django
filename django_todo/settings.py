@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", False)
 
-ALLOWED_HOSTS = ['https://citodo-app-77e230817613.herokuapp.com/']
+ALLOWED_HOSTS = ['citodo-app-77e230817613.herokuapp.com']
 
 
 # Application definition
